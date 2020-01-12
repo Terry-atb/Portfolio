@@ -1,0 +1,244 @@
+/* body{
+    background: #282828;
+    background: linear-gradient(-45deg, #ffffff, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
+
+header{
+    position: relative;
+    background-image: url("../img/ng10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-brand{
+    margin-left: 4rem;
+}
+
+.navbar-nav{
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar-collapse{
+    font-family: 'Baloo Bhai', cursive;
+    padding-top: 1rem;
+}
+
+.navbar-nav .nav-link{
+    font-size: 18px;
+}
+
+#abt{
+    text-align: center;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: azure;
+    font-family: 'cute font',cursive;
+}
+
+/* .btn{
+    margin-top: 2rem;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(173, 216,230);
+} */
+
+#about{
+    margin-top: 3rem;
+}
+
+#more{
+    display: none;
+}
+
+#myBtn{
+    width: 8rem;
+}
+
+#myabt{
+    padding: 1rem;
+    background-color: rgba(255, 0, 0, 0.4);
+    border-radius: 2rem;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.knowme{
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 2rem;
+    padding: 1rem;  
+    font-family: 'Lilita One', cursive;
+}
+
+.know0{
+    padding: 2rem;
+    padding-bottom: 0   ;
+}
+
+.know1{
+    font-family: 'Rancho', cursive;
+    font-size: 25px;
+}
+
+.hobbies{
+    margin: 3rem;
+}
+
+.myhobbies{
+    margin: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.know{
+    /* border: azure solid 2px; */
+    padding: 2rem;
+    /* border-radius: 2rem; */
+    margin: 1rem;
+}
+
+/* .skills{
+    border: azure solid 2px;
+    padding: 2rem;
+    border-radius: 2rem;
+} */
+
+.myskills{
+    margin: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-family: 'Lilita One', cursive;
+}
+
+.skill{
+    margin-left: 4rem;
+}
+
+.skill1{
+    padding: 4rem;
+}
+
+.myactivities{
+    margin: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-family: 'Lilita One', cursive;
+}
+
+/* .menu_fixed {
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    background-color: #e614ff;
+    top: 0;
+} */
+
+.progress{
+    height: 2rem;
+}
+
+.cont{
+    margin-bottom: 2rem;
+    background-color: rgba(212, 212, 212, 1);
+}
+
+.cont1{
+    text-align: center;
+    /* color: azure; */
+    padding-top: 3rem;
+    font-family: 'Bangers', cursive;
+}
+
+/* .cont2:hover{
+    background-color: rgba(255, 73, 0, 1);
+} */
+
+.cont2{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    border: azure solid 2px;
+    text-align: center;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cont3{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Bangers', cursive;
+}
+
+.cont4{
+    /* margin-top: 1.5rem;
+    margin-bottom: 2rem; */
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+}
+
+.cont5{
+    /* background-color: azure; */
+    /* border-radius: 2rem; */
+    padding: 8px;
+    margin: 2rem;
+    width: 4rem;
+}
+
+.cont5:hover{
+    color: rgb(3, 21, 90);
+    border: 5px solid rgb(4, 10, 94);
+    transition: .1s;
+    border-radius: 3rem;
+}
+
+.cont6{
+    /* border: azure solid 2px; */
+    border-radius: 2rem;
+    margin-left: 4rem;
+    padding: 3rem;
+}
+
+.edu{
+    text-align: center;
+    padding: 1rem;
+}
+
+.edu2{
+    margin: 2rem;
+    border: 2px solid;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.edu1{
+    /* border: azure solid 2px; */
+    padding: 2rem;
+    /* border-radius: 2rem; */
+}

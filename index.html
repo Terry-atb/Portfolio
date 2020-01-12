@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Rancho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- jquery -->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>    
+
+</head>
+<body>
+    
+<!-- navbar    -->
+
+    <!-- <header class="main_menu home_menu menu_fixed animated fadeInDown"> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" >
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./img/Drawing.png" alt="logo" style="width:8rem;">
+            </a>
+            
+            <!-- Links -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link one" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link two" href="#about">About ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link three" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link four" href="#edu">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link five" href="#cont">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron" id="abt">
+            <p class="lead"><h1>Hey! I'm</h1></p>
+            <h1 class="display-1">Aftab Mansoori</h1>            
+            <hr class="my-4">
+            <p><h2>I'm a WEB Designer</h2></p>
+            <a href="#about"><button button type="button" class="btn btn-dark"><h4>About ME</h4></button></a>
+        </div>
+
+    </header>    
+
+    <!-- About me -->
+
+    <section class="about" id="about">
+        <div class="container-fluid">
+            <h1 id="myabt">About ME</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <nav class="nav flex-column sticky-top" style="font-family: 'Baloo Bhai', cursive;">
+                        <a class="nav-link" href="#know">-know ME!</a>
+                        <a class="nav-link" href="#skills">-skills</a>
+                        <a class="nav-link" href="#activities">-activities</a>
+                        <a class="nav-link" href="#activities">-hobbies</a>
+                    </nav>
+                </div>
+                <div class="col-md-9" >
+                    <div class="know" id="know">
+                    <h4 class="knowme" >Know ME!</h4><hr>
+                    <div class="row know0" >
+                        <div class="col-md-6 know1">
+                            <p>Hello, I am web designer by profession currently pursuing my Bachelors in engineering from SIES Graduate School Of Technology Nerul(E) in field of Information Technology. Web Designing is one of my favorite activity which I like to do. In Web I have developed skills in HTML,CSS & Bootstrap. I also know how to code, basically using C.</p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At ab quas illum, vero voluptatibus in laboriosam veritatis ratione dolores minus ad consequuntur inventore recusandae beatae eum nisi saepe perspiciatis voluptate.
+                            <span id="dots">...</span><span id="more">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum soluta impedit delectus maiores ad perferendis sed voluptas non quaerat dolorum, quas officiis, aliquid nesciunt laboriosam, illum accusamus quisquam quasi amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam harum, vel velit quod fugiat sint saepe tempora, sapiente, aliquid odit numquam modi blanditiis autem earum quisquam veniam natus eligendi.</p></span>
+                            <p><a class="nav-link btn btn-outline-primary" onclick="myFunction()" id="myBtn">Read more</a></p>               
+                        </div>
+                        <script>
+                            function myFunction() {
+                              var dots = document.getElementById("dots");
+                              var moreText = document.getElementById("more");
+                              var btnText = document.getElementById("myBtn");
+                            
+                              if (dots.style.display === "none") {
+                                dots.style.display = "inline";
+                                btnText.innerHTML = "Read more"; 
+                                moreText.style.display = "none";
+                              } else {
+                                dots.style.display = "none";
+                                btnText.innerHTML = "Read less"; 
+                                moreText.style.display = "inline";
+                              }
+                            }
+                        </script>
+
+                        <div class="col-md-6">
+                            <img src="./img/about.jpg" class="img-fluid">
+                        </div>
+                    </div>  
+                </div>
+
+                    <hr>
+
+                    <div class="skills" id="skills">
+                        <h4 class="myskills">Skills</h4><hr>
+                        <div class="row skill1">
+                            <div class="col-md-4">
+                                <p class="skill"><img src="./img/css.png"  width="57%" class="img-fluid"></p>
+                                <div class="progress"> 
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                                </div>       
+                            </div>
+                            <div class="col-md-4">
+                                <p class="skill"><img src="./img/html.png" width="60%" class="img-fluid"></p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+                                </div>       
+                            </div>
+                            <div class="col-md-4">
+                                <p class="skill"><img src="./img/b.png"  width="70%" class="img-fluid"></p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                                </div>       
+                            </div>
+                        </div>                   
+
+                    </div>
+                    
+                    <hr>
+
+                    <div class="activities" id="activities">
+                        <h4 class="myactivities">Activities & Hobbies</h4><hr>
+                        <div class="row" style="margin-bottom: 4rem; margin-top: 4rem;">
+                            <div class="col-md-4">
+                                <!-- <p class="sports">Sports</p> -->
+                                <div class="card img-fluid" style="width:500px; border: none">
+                                  <img class="card-img-top" src="./img/sports.jpg" alt="Card image" style="width:100%;border-radius: 2rem;">
+                                  <div class="card-img-overlay">
+                                    <h4 class="card-title" style="font-family: 'Baloo Bhai', cursive;">Sports</h4>
+                                    <p class="card-text" style="color: black; font-family: 'Rancho', cursive; font-size: 25px;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                  </div>
+                                </div>
+                              </div>
+        
+                            <div class="col-md-4">
+                                <div class="card img-fluid" style="width:500px; border: none">
+                                    <img class="card-img-top" src="./img/read.png" alt="Card image" style="width:100%; height:16rem;border-radius: 2rem;">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title" style="font-family: 'Baloo Bhai', cursive; color: aliceblue;">Reading</h4>
+                                      <p class="card-text" style="color:aliceblue; font-family: 'Rancho', cursive; font-size: 25px;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card img-fluid" style="width:500px; border: none">
+                                    <img class="card-img-top" src="./img/stream.jpg" alt="Card image" style="width:100%; height: 16rem;border-radius: 2rem;">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title" style="font-family: 'Baloo Bhai', cursive; color: black;">Streaming</h4>
+                                      <p class="card-text" style="color: black; font-family: 'Rancho', cursive; font-size: 25px;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card img-fluid" style="width:500px; border: none">
+                                    <img class="card-img-top" src="./img/travel.jpg" alt="Card image" style="width:100%;border-radius: 2rem;">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title" style="font-family: 'Baloo Bhai', cursive;">Travelling</h4>
+                                      <p class="card-text" style="color: black; font-family: 'Rancho', cursive; font-size: 25px;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card img-fluid" style="width:500px; border: none;">
+                                    <img class="card-img-top" src="./img/gaming.png" alt="Card image" style="width:100%; height: 15rem; border-radius: 2rem;">
+                                    <div class="card-img-overlay">
+                                      <h4 class="card-title" style="font-family: 'Baloo Bhai', cursive; color: aliceblue;">Gaming</h4>
+                                      <p class="card-text" style="color:aliceblue; font-family: 'Rancho', cursive; font-size: 25px;">Some example text some example text. Some example text some example text. Some example text some example text. Some example text some example text.</p>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+
+    <section class="proj">
+
+    </section>
+
+    <!-- end -->
+
+    <!-- Education -->
+    <section class="edu" id="edu">
+        <div class="edu1">
+        <div class="container-fluid">
+            <h2 style="background-color: rgba(255, 0, 0, 0.4); padding: 0; border-radius: 2rem; font-family: 'Bangers', cursive;">Education <img src="./img/edu.png" alt="edu" class="img-fluid" style="width: 10%;"></h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h4 class="edu2 ssc">SSC<br>92.40%</h4>
+            </div>
+            <div class="col-md-4">
+                <h4 class="edu2 hsc">HSC <br>85%</h4>
+            </div>
+            <div class="col-md-4">
+                <h4 class="edu2 cet">MH-CET <br>110/200</h4>
+            </div>
+        </div>
+        <hr>
+        <p style="font-weight: bold; font-size: 27px;">B.E. IT</p>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="edu2">SEM 1 <br>7.00</h4>
+            </div>
+            <div class="col-md-6">
+                <h4 class="edu2">SEM 2 <br>7.07</h4>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="cont" id="cont">
+        <div class="container-fluid">
+            <h3 class="cont1">CONTACT ME</h3>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 cont2">    
+                    <p class="container cont3">Address <img src="./img/add.png" class="img-fluid" width="7%"></p>     
+                    <hr> 
+                    <p class="container-fluid cont4">
+                        KL-5, Building NO. 44,<br>
+                        Room NO. 4, Sector 3E,<br>
+                        Near Kalamboli Bus Depot <br>
+                        Kalamboli 410218 <br>
+                        Navi Mumbai 
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.2670850098468!2d73.10064401420186!3d19.02715173278063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e9d6cbd86579%3A0x1b52688f772ebd48!2sKalamboli%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1578583663879!5m2!1sen!2sin" width="300" height="200" frameborder="0" style="border:0; margin-bottom: 2rem;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-md-6 cont6">
+                    <h4 style="text-align: center; font-family: 'Rancho', cursive; font-size: 3rem;">Socialise with me through...</h4><hr>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#git" data-toggle="popover" data-placement="top" title="GitHub" data-content="username: tab-creator"><img src="./img/git.png" alt="git" class="img-fluid cont5" id="git"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#gmail" data-toggle="popover" data-placement="bottom" title="Gmail" data-content="mohammed.aftab18@siesgst.ac.in"><img src="./img/gmail.png" alt="gmail" class="img-fluid cont5" id="gmail"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#insta" data-toggle="popover" data-placement="top" title="Instagram" data-content="http://www.instagram.com/mansoori_aftab"><img src="./img/insta.png" alt="Instagram" class="img-fluid cont5" id="insta"></a>
+                        </div>                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#wa" data-toggle="popover" data-placement="bottom" title="WhatsApp" data-content="+91 9892317753"><img src="./img/whatsapp.png" alt="gmail" class="img-fluid cont5" id="wa"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#cell" data-toggle="popover" data-placement="bottom" title="Call" data-content="+91 9892317753"><img src="./img/phone.png" alt="phone" class="img-fluid cont5" id="cell"></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#tele" data-toggle="popover" data-placement="bottom" title="Telegram" data-content="+91 9892317753"><img src="./img/telegram.png" alt="telegram" class="img-fluid cont5" id="tele"></a>
+                        </div>
+                    </div>
+                    <script>
+                        $(document).ready(function(){
+                          $('[data-toggle="popover"]').popover();   
+                        });
+                    </script>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end -->
+</body>
+</html>
